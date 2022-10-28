@@ -20,7 +20,22 @@
   </head>
   <body>
     <main>
-      <header class="img_container"></header>
+      <header class="img_container">
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <source
+            media="(min-width: 376px)"
+            srcset="images/image-product-desktop.jpg"
+          />
+          <img
+            src="/images/image-product-mobile.jpg"
+            alt="Bottle of CHANEL perfume"
+          />
+        </picture>
+      </header>
       <section>
         <h2>Perfume</h2>
         <h1>Gabrielle Essence Eau De Parfum</h1>
