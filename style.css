@@ -44,6 +44,16 @@ body {
 @media (min-width: 376px) {
 }
 
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 50vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
