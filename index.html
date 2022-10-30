@@ -20,7 +20,7 @@
   </head>
   <body>
     <main>
-      <header class="img_container">
+      <div class="img_container">
         <picture>
           <source
             media="(max-width: 375px)"
@@ -32,12 +32,12 @@
           />
           <img
             src="/images/image-product-mobile.jpg"
-            alt="Bottle of CHANEL perfume"
+            alt="Lying square bottle of CHANEL perfume, leaves around it"
           />
         </picture>
-      </header>
+      </div>
       <section>
-        <h2>Perfume</h2>
+        <p class="parfume">Perfume</p>
         <h1>Gabrielle Essence Eau De Parfum</h1>
         <p>
           A floral, solar and voluptuous interpretation composed by Olivier
@@ -45,7 +45,7 @@
         </p>
         <div class="price_container">
           <div class="discounted_price">$149.99</div>
-          <div class="original_price">$169.99</div>
+          <span class="sr-only"><del>$169.99</del></span>
         </div>
         <button class="btn_add">
           <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
